@@ -5,7 +5,7 @@ import os, uuid
 from azure.storage.blob import BlobServiceClient, BlobClient, ContainerClient
 
 # Configure storage connection string to system
-# setx AZURE_STORAGE_CONNECTION_STRING "DefaultEndpointsProtocol=https;AccountName=youtubestatsblobstorage;AccountKey=JVDn6zYcUxIFr+I33s06PZKyyS4e2WeiYib7bk2So5PrpwdoP7R+RQUeBmX6jwCDmcq/rf35SexvaC69mk8dXQ==;EndpointSuffix=core.windows.net"
+# setx AZURE_STORAGE_CONNECTION_STRING "DefaultEndpointsProtocol=https;AccountName=<name>;AccountKey=<key>==;EndpointSuffix=core.windows.net"
 
 # Retrieve the connection string for use with the application.
 connect_str = os.getenv('AZURE_STORAGE_CONNECTION_STRING')
